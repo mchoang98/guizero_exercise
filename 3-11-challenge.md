@@ -13,6 +13,7 @@
 3. Viết hàm `change_light()` đổi màu nút theo `state` và reset `countdown`.
 4. Viết hàm `countdown_timer()` giảm `countdown` mỗi giây, khi về 0 gọi `change_light()` và tiếp tục đếm ngược.
 5. `Text` dưới trụ đèn hiển thị `"Chuyển sau: X s"`.
+6. sử dụng  `app.after(1000, countdown_timer)` để gọi lại hàm sau 1 giây
 
 
 <img width="184" height="534" alt="image" src="https://github.com/user-attachments/assets/680d0fba-f9d3-4328-a4e3-7d2ff284cd2e" />
